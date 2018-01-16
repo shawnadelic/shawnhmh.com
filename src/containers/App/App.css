@@ -10,7 +10,7 @@ body {
   color: #eee;
 }
 
-.app {
+.container {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -19,30 +19,28 @@ body {
   height: 100%;
 }
 
-.app-header {
+.header {
   background-color: #eee;
   padding: 10px 30px 5px;
   font-size: 1.2em;
   color: #F5210A;
 }
 
-.app-title {
+.header-title {
   font-size: 1.6em;
   font-weight: bolder;
 }
 
-.app-body {
+.content-container {
   padding: 0 30px;
   height: 100%;
-  align-self: center;
-  align-items: center;
 }
 
-.app-body-header {
+.content-container h2 {
   color: #509fe8;
 }
 
-.app-footer ul {
+.footer ul {
   list-style-type: none;
   padding: 20px 30px;
   margin: 0;
@@ -51,14 +49,18 @@ body {
   justify-content: space-evenly;
 }
 
-.app-footer li {
+.footer li {
   font-size: 1.2em;
   font-weight: bold;
 }
 
 a {
-  color: #52b01b;
+  color: #ddd;
   text-decoration: none;
+}
+
+.footer a {
+  color: #b5b310;
 }
 
 a:hover {
