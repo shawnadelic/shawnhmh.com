@@ -6,19 +6,9 @@ import {
   Switch
 } from 'react-router-dom'
 import { Home } from '../../containers'
+import { Resume } from '../../containers'
 
 import './App.css'
-
-class Resume extends Component {
-  render() {
-    return (
-      <div>
-        <h2>Resume</h2>
-        <p><a href="http://www.shawnhmh.com/site/assets/files/1014/her_many_horses_-_resume.pdf">Download Resume (PDF)</a></p>
-      </div>
-    )
-  }
-}
 
 class App extends Component {
   render() {

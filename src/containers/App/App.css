@@ -32,6 +32,10 @@ body {
 }
 
 .content-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
   padding: 0 30px;
   height: 100%;
 }
@@ -65,4 +69,24 @@ a {
 
 a:hover {
   color: #666;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.resume-container {
+  padding: 20px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.resume-display {
+  flex-grow: 1;
+  overflow-x: hidden;
+  margin: 20px 0 20px;
 }
