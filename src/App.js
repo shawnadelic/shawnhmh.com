@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+      <div className="app">
+        <header className="app-header">
+          <h1 className="app-title">Shawn Her Many Horses</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="app-body">
+          <h2 className="app-body-header">Programmer, Developer, Engineer, etc.</h2>
+          <p>Hi, my name is Shawn. I'm a computer programmer currently residing in the Los Angeles area. This is my little corner of the web where I post information regarding any projects I'm currently working on. In addition to programming, I also enjoy art, music, and local culture.</p>
+          <p>I can be contacted at <strong>shawnhmh@gmail.com</strong>.</p>
+        </div>
+        <div className="app-footer">
+          <ul>
+            <li><a href='#'>Resume</a></li>
+            <li><a href='#'>Github</a></li>
+            <li><a href='#'>LinkedIn</a></li>
+          </ul>
+        </div>
       </div>
     );
   }
