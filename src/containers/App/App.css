@@ -7,6 +7,7 @@ html, body, div#root {
 body {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   background-color: #161616;
+  background-image: url('../../assets/body-bg.png');
   color: #eee;
 }
 
@@ -21,6 +22,7 @@ body {
 
 .header {
   background-color: #eee;
+  background-image: url('../../assets/header-bg.png');
   padding: 10px 30px 5px;
   font-size: 1.2em;
   color: #F5210A;
