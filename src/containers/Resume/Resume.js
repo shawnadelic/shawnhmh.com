@@ -5,7 +5,7 @@ class Resume extends Component {
   render() {
 
     return (
-      <div className="resume-container">
+      <div className="resume-body">
         <div className="resume-display">
           <PDF
             file="/HerManyHorses-Resume.pdf"

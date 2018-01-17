@@ -1,5 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
 
+* { min-height:0 }
+
 html, body, div#root {
   height: 100%;
 }
@@ -12,12 +14,9 @@ body {
 }
 
 .container {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-  height: 100%;
 }
 
 .header {
@@ -26,6 +25,7 @@ body {
   padding: 10px 30px 5px;
   font-size: 1.2em;
   color: #F5210A;
+  flex: none;
 }
 
 .header-title {
@@ -34,28 +34,46 @@ body {
 }
 
 .content-container {
+  padding: 0 30px;
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
-  flex-shrink: 1;
-  padding: 0 30px;
-  height: 100%;
 }
 
 .content-container h2 {
   color: #509fe8;
 }
 
+.resume-body {
+  flex: 1 1 auto;
+  padding: 20px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-display {
+  overflow: auto;
+  overflow-x: hidden;
+  margin: 20px 0 20px;
+}
+
+.footer {
+  flex: none;
+}
+
 .footer ul {
+  display: flex;
   list-style-type: none;
   padding: 20px 30px;
   margin: 0;
-  display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 }
 
 .footer li {
+  flex-direction: row;
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -75,25 +93,4 @@ a:hover {
 
 .align-right {
   text-align: right;
-}
-
-.resume-container {
-  padding: 20px;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  height: auto;
-  min-height: 0;
-}
-
-.resume-display {
-  height: 0;
-  flex: 1 0 auto;
-  flex-grow: 1;
-  overflow: auto;
-  overflow-x: hidden;
-  margin: 20px 0 20px;
 }
