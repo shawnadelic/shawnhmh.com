@@ -85,10 +85,15 @@ a:hover {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  height: auto;
+  min-height: 0;
 }
 
 .resume-display {
+  height: 0;
+  flex: 1 0 auto;
   flex-grow: 1;
+  overflow: auto;
   overflow-x: hidden;
   margin: 20px 0 20px;
 }
