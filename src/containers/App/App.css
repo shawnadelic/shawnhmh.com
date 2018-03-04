@@ -38,6 +38,7 @@ body {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 .content-container h2 {
@@ -87,6 +88,9 @@ a {
   color: #b5b310;
 }
 
+.footer {
+}
+
 a:hover {
   color: #666;
 }
@@ -94,3 +98,21 @@ a:hover {
 .align-right {
   text-align: right;
 }
+
+.nav-label {
+  display: none;
+}
+
+.nav-icon {
+  display: block;
+}
+
+@media (min-width: 500px) {
+	.nav-label {
+  display: block;
+	}
+  .nav-icon {
+    display: none;
+  }
+}
+
