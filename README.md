@@ -12,7 +12,7 @@ Setup
 
 To set up the project locally:
 
-`npm install`A
+`npm install`
 
 Deploying
 ---------
