@@ -5,8 +5,8 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import { Home } from '../../containers'
-import { Resume } from '../../containers'
+import { Home } from '../../components'
+import { Resume } from '../../components'
 
 import './App.css'
 
