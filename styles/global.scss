@@ -1,0 +1,14 @@
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+
+* { min-height:0 }
+
+html, body, div#__next {
+  height: 100%;
+}
+
+body {
+  background-color: #161616;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
