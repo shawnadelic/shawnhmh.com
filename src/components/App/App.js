@@ -6,7 +6,6 @@ import {
   Switch
 } from 'react-router-dom'
 import { Home } from '../../components'
-import { Resume } from '../../components'
 
 import './App.css'
 
@@ -38,14 +37,12 @@ class App extends Component {
           </header>
           <div className="content-container">
             <Switch>
-              <Route path="/resume" component={Resume}/>
               <Route component={Home}/>
             </Switch>
           </div>
           <div className="footer">
             <ul>
               <li><NavLink to='/' label='Home' icon='home' /></li>
-              <li><NavLink to='/resume' label='Resume' icon='file' /></li>
               <li><a href="https://github.com/shawnadelic/">
                 <span class='nav-label'>Github</span>
                 <span class='nav-icon'><i class='fab fa-github'></i></span>
